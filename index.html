@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="./assets/img/favicon.ico" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+  <title>Forms For QA</title>
+</head>
+
+<body>
+  <div class="container">
+    <section class="form-container">
+      <h2>Formulário de matrícula</h2>
+      <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Girafas do Saber.</p>
+      <h4>Informações da criança</h4>
+      <form id="signup-form">
+        <label for="first-name">Nome</label>
+        <input type="text" id="first-name" required>
+        <span class="error" id="first-name-error"></span>
+
+        <label for="last-name">Sobrenome</label>
+        <input type="text" id="last-name" required>
+        <span class="error" id="last-name-error"></span>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <span class="error" id="email-error"></span>
+
+        <label for="confirm-email">Repetir E-mail</label>
+        <input type="email" id="confirm-email" required>
+        <span class="error" id="confirm-email-error"></span>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" required>
+        <span class="error" id="password-error"></span>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+    <section class="description">
+      <h3><span class="giraf-icon"></span> Girafas do Saber</h3>
+      <h1>Porque cada momento de <span>aprendizado</span> conta</h1>
+      <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+    </section>
+  </div>
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>
