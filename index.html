@@ -20,23 +20,28 @@
       <h4>Informações da criança</h4>
       <form id="signup-form">
         <label for="first-name">Nome</label>
-        <input type="text" id="first-name" required>
+        <input type="text" id="first-name">
         <span class="error" id="first-name-error"></span>
 
         <label for="last-name">Sobrenome</label>
-        <input type="text" id="last-name" required>
+        <input type="text" id="last-name">
         <span class="error" id="last-name-error"></span>
 
         <label for="email">E-mail</label>
-        <input type="email" id="email" required>
+        <input type="email" id="email">
         <span class="error" id="email-error"></span>
 
         <label for="confirm-email">Repetir E-mail</label>
-        <input type="email" id="confirm-email" required>
+        <input type="email" id="confirm-email">
         <span class="error" id="confirm-email-error"></span>
 
         <label for="password">Senha</label>
-        <input type="password" id="password" required>
+        <div class="forms-group-password">
+          <input type="password" id="password">
+          <span id="toggle-password">
+            👁️
+          </span>
+        </div>
         <span class="error" id="password-error"></span>
 
         <button type="submit">Cadastrar</button>
@@ -48,7 +53,7 @@
       <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
     </section>
   </div>
-  <script type="module" src="./assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
